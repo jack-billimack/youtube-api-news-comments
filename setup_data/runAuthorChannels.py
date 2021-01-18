@@ -23,8 +23,8 @@ from getYoutubeChannelData import describe_channel
 
 ################################
 # DOUBLE CHECK THE LIST OF authorChannelIds not in the output of commentor_channel_info, find them, run them
-c_channels1 = pd.read_csv('D:\Users\jackb_HDD\Development\Ideas\YoutubeCommentors\data\commentor_channel_info\commentor_channel_info.csv')
-c_channels2 = pd.read_csv('D:\Users\jackb_HDD\Development\Ideas\YoutubeCommentors\data\commentor_channel_info\commentor_channel_info2.csv')
+c_channels1 = pd.read_csv('\\PATH\\TO\\YoutubeCommentors\data\commentor_channel_info\commentor_channel_info.csv')
+c_channels2 = pd.read_csv('\\PATH\\TO\\YoutubeCommentors\data\commentor_channel_info\commentor_channel_info2.csv')
 c_channels3 = pd.read_csv('\\PATH\\TO\\YoutubeCommentors\\data\\commentor_channel_info\\commentor_channel_info3.csv')
 
 authorChannels_complete = []
@@ -49,6 +49,6 @@ for account_id in loop_list: #authorChannels[644106:]
 
 # TODO:
 commentor_channel_info3 = pd.concat(author_channel_master)
-# send video_comments to D:\Users\jackb_HDD\Development\Ideas\YoutubeCommentors\data\commentor_channel_info\commentor_channel_info123.csv
+# send video_comments to \YoutubeCommentors\data\commentor_channel_info\commentor_channel_info123.csv
 
 
