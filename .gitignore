@@ -1,0 +1,11 @@
+*.csv
+.vscode
+__pycache__
+.idea
+*.ini
+*.xml
+*.iml
+*.txt
+analysis
+analysis/*
+config.py
